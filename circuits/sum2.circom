@@ -16,5 +16,5 @@ template Sum(n) {
     }
     out <== intermediate[2*n-1];
 }
-
-component main = Sum(50);
+// 1 3 8 12 18
+component main = Sum(3);
