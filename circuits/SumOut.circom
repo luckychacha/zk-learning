@@ -8,5 +8,4 @@ template SumOut(n) {
         out[i] <== in[i] + out[i-1];
     }
 }
-// 1 3 8 12 18
 component main = SumOut(18);
